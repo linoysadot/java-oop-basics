@@ -34,7 +34,7 @@ public class tester {
         ClassRoom v=new ClassRoom();
         v.students=new String[3];
         for (int i = 0; i < v.students.length; i++) {
-            System.out.println(" the name of student num "+ (i+1) + " is :");
+            System.out.print(" the name of student "+(i+1)+" is :");
             v.students[i]=scan.nextLine();
 
         }
@@ -46,6 +46,9 @@ public class tester {
         Light l=new Light();
         l.TurnON();
         l.print();
+        l.TurnOff();
+        l.print();
+
 
         Counter counter=new Counter();
         counter.count=10;
