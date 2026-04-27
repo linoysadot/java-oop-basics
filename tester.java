@@ -23,11 +23,11 @@ public class tester {
 
         BankAccount ba=new BankAccount();
         ba.owner="linoy ";
+        System.out.println(" hello"+owner);
         ba.balance=100;
         ba.printbank();
-        ba.balance=ba.deposit();
-        ba.printbank();
-        ba.balance= ba.Withdraw();
+        ba.deposit(ba.balance);
+        ba.Withdraw(ba.balance);
         ba.printbank();
         System.out.println("---------------------");
 
