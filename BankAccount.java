@@ -5,8 +5,9 @@ public class BankAccount {
     public String owner;
     public double balance;
     public void printbank(){
-        System.out.println(" hello "+owner);
+         System.out.println(" hello "+owner);
         System.out.println(" the balance is: "+balance);
+        
     }
 
 
